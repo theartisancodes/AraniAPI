@@ -1,0 +1,32 @@
+{
+  "name": "AraniAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:theartisancodes/AraniAPI.git",
+  "author": "theartisancodes <kjoenzau@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "eslint": "^6.1.0",
+    "eslint-plugin-graphql": "^3.0.3",
+    "nodemon": "^1.19.1",
+    "pg": "^7.12.1",
+    "sequelize": "^5.15.0",
+    "sequelize-cli": "^5.5.0"
+  },
+  "dependencies": {
+    "apollo-link-context": "^1.0.18",
+    "apollo-server": "^2.8.1",
+    "apollo-server-express": "^2.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
