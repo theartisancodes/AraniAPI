@@ -1,9 +1,9 @@
 import { gql } from 'apollo-server-express';
 
- const AccountSchema = gql`
+ const Account = gql`
 
   `;
-export default AccountSchema;
+export default Account;
 
 
 

@@ -1,9 +1,8 @@
+import uuidv4 from 'uuid/v4';
 import { gql } from 'apollo-server-express';
 
-const AccountResolvers = gql`
-
-`;
-export default AccountResolvers;
+const Account = {};
+export default Account;
 
 
 
