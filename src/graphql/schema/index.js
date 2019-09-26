@@ -1,5 +1,5 @@
 import { gql} from 'apollo-server-express';
-import Account from './accounts.schema';
+import Account from './staff.typedef';
 import Branch from 'branches.schema';
 import Drawer from 'drawers.schema';
 const linkSchema = gql`
