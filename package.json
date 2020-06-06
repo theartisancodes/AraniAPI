@@ -29,7 +29,7 @@
   "dependencies": {
     "apollo-link-context": "^1.0.18",
     "apollo-server": "^2.8.1",
-    "apollo-server-express": "^2.8.1",
+    "apollo-server-express": "^2.14.2",
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "eslint-config-prettier": "^6.0.0",
